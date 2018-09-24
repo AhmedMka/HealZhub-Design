@@ -111,9 +111,8 @@ box-shadow: 4px 7px 9px -1px rgba(0,0,0,0.48);
     margin-top: 80px;
     background-color: white;
     border-bottom: 2px solid #eee;
-        box-shadow: 6px 7px 31px -7px rgba(0,0,0,0.48)
-
-}
+     box-shadow: 6px 7px 31px -7px rgba(0,0,0,0.48)}
+body {overflow-x: hidden;}
 .section h4 {
      margin-top: 100px;
     font-family: 'Righteous';
@@ -121,11 +120,7 @@ box-shadow: 4px 7px 9px -1px rgba(0,0,0,0.48);
     letter-spacing: 2px;
     font-weight: bold;
 }
-.sectionCommerce {
-        box-shadow: 6px 7px 31px -7px rgba(0,0,0,0.48);
-
-        padding: 100px;
-}
+.sectionCommerce {box-shadow: 6px 7px 31px -7px rgba(0,0,0,0.48); padding: 100px;}
 .iconSection {overflow: hidden; }
 .iconSection img , .iconSection h5 , .iconSection p {float: left; }
 .iconSection img { margin-top: 30px; }
