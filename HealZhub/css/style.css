@@ -1,0 +1,381 @@
+
+ul, ol { list-style: none; padding: 0; }
+.navbarcontent ul li{ float: left; width: 20%; font-family:  'Varela Round';
+ }
+.logo img{ width:40%; margin-top: 20px; }
+.Register span{
+  display: inline-block;
+    font-family: 'Varela Round';
+}
+.Register span:first-of-type { padding-right: 30px; 
+}
+.Register span:last-of-type {
+    color:white;
+    background-color: #04b7e4;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.navbar {
+  
+    border-bottom: 1px solid #eee;
+    padding: 0 !important;
+    background-color: #f3f6f8 ;
+
+}
+.sectionHeader {
+    margin-top: 130px;
+}
+.sectionHeader h3 {
+   font-family: 'Righteous';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+        font-weight: bold;
+
+}
+.sectionHeader h3 span{
+  color:#ed242c;
+}
+.sectionHeader h5 {
+     font-family: 'Righteous';
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.sectionHeader p{
+    color:#abadaf;
+    font-style: italic;
+}
+
+.emails {
+       width: 400px;
+    height: 70px;
+    background-color: #dfe6ec;
+}
+.emails span {display: inline-block;
+    margin-left: 50px;
+    margin-top: 15px;}
+.emails span:first-of-type {
+    color:#abadaf;
+        font-style: italic;
+}
+.emails i {
+        background-color: #04b7e4;
+    padding: 10px 40px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.gallary{
+  margin-top: 100px;
+    margin-left: 100px !important;
+}
+.fa-arrow-circle-o-down {
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.fa-arrow-circle-o-down:hover {
+    color:black;
+}
+.content {
+    margin-bottom: 50px;
+}
+.image-box img {
+    max-width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+box-shadow: 4px 7px 9px -1px rgba(0,0,0,0.48);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.image-box img:hover {
+    transform: scale(1.1);
+}
+.header {
+    background-color: #f3f6f8;
+    box-shadow: 4px 23px 38px -8px rgba(0,0,0,0.48);
+     border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 40px;
+}
+.arrowDown i {
+    color: #80808073;
+    margin-left: 550px;
+        font-size: 50px;
+    margin-top: 20px;
+
+}
+/*End Header*/
+.section {
+    margin-top: 80px;
+    background-color: white;
+    border-bottom: 2px solid #eee;
+        box-shadow: 6px 7px 31px -7px rgba(0,0,0,0.48)
+
+}
+.section h4 {
+     margin-top: 100px;
+    font-family: 'Righteous';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.sectionCommerce {
+        box-shadow: 6px 7px 31px -7px rgba(0,0,0,0.48);
+
+        padding: 100px;
+}
+.iconSection {overflow: hidden; }
+.iconSection img , .iconSection h5 , .iconSection p {float: left; }
+.iconSection img { margin-top: 30px; }
+.iconSection h5,  p { margin-left: 20px; margin-top: 40px;}
+.iconSection h4 {font-family: 'Righteous'; letter-spacing: 4px }
+.iconSection p {color:#abadaf}
+.imageJou {
+    width: 100%;
+    margin-top: 130px;
+    border-radius: 35px;
+    background-color: white;
+    height: 400px;
+    margin-left: 100px;
+    box-shadow: 4px 7px 9px -1px rgba(0,0,0,0.48);
+
+}
+.imageJou img {
+    max-width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+
+.sectionTwo {
+    margin-top: 100px;
+}
+
+.sectionTwo h4 {
+     margin-top: 100px;
+    font-family: 'Righteous';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.imageMob img:first-of-type{
+    height: 500px;
+    margin-top: 110px;
+    border-top-left-radius: 65px;
+    border-bottom-left-radius: 65px;
+}
+   
+.imageMob {
+    height: 800px; 
+}
+.imageMob img:last-of-type{
+      position: relative;
+    bottom: 350px;
+    right: 80px;
+
+}
+.BackgroundPhones {
+    background-image: url('https://image.ibb.co/cBgyz9/dd.jpg');
+background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.RegisterCredit {     margin-top: 50px;
+    background-color: #eeeeee21;
+}
+.RegisterCredit h6{
+    font-family: 'Righteous';
+    font-size: 26px;
+    font-weight: bold;
+        letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+.iphone {
+        height: 300px;
+}
+.iphone .firstImage {
+    transform: rotate(50deg);
+    width:50%;
+}
+.iphone .SecondImage {
+    transform: rotate(50deg);
+    width: 50%;
+    position: relative;
+    top: -186px;
+    right: -70px;
+}
+
+.iphone .ThirdImage {
+        position: relative;
+    top: -385px;
+    right: -5px;
+    width: 35%;
+    opacity: 0.3;
+    transform: rotate(50deg);
+}
+.ThirdImagetwo {
+           position: relative;
+      top: -755px;
+    right: -161px;
+    width: 35%;
+    opacity: 0.3;
+    transform: rotate(50deg); 
+}
+.iphone .ThirdImageMobile {
+position: relative;
+    width: 45%;
+    transform: rotate;
+    transform: rotate(50deg);
+    top: -392px;
+    right: 115px;
+}
+.iphone .FourImageMobile {
+      position: relative;
+    width: 45%;
+    transform: rotate;
+    transform: rotate(50deg);
+    top: -560px;
+    right: -225px;
+}
+.FiveImageMobile {
+          position: relative;
+    width: 45%;
+    transform: rotate;
+    transform: rotate(50deg);
+top: -597px;
+    right: -150px;
+}
+.SixImageMobile {
+              position: relative;
+    width: 45%;
+    transform: rotate;
+    transform: rotate(50deg);
+top: -730px;
+    right: -61px;
+}
+.SevenImageMobile {
+                  position: relative;
+    width: 45%;
+    transform: rotate;
+    transform: rotate(50deg);
+top: -1100px;
+    right: -465px;
+}
+.EightImageMobile {
+     position: relative;
+    width: 45%;
+    transform: rotate;
+    transform: rotate(50deg);
+top: -855px;
+    right: -100px;
+}
+.NineImageMobile {
+                      position: relative;
+    width: 45%;
+    transform: rotate;
+    transform: rotate(50deg);
+top: -1243px;
+    right: -520px;
+}
+.headPlan {
+    text-align: center;
+    margin: 100px auto;
+}
+.headPlan h2 {    font-family: 'Righteous';}
+.headPlan span { display: inline-block;
+    padding: 40px 70px;
+    margin-top: 50px;}
+.headPlan span:first-of-type {
+    background-color: #f3f6f8;
+    color:black;
+}
+.headPlan span:last-of-type {
+    background-color: #04b7e4;
+    color:white;
+}
+.contentPlan {
+    margin: auto;
+    text-align: center;
+background-color: #f3f6f8;
+    box-shadow: 4px 7px 9px -1px rgba(0,0,0,0.48);
+}
+
+.contentPlan .fa-star {
+  color: gold;
+    display: inline-block;
+    font-size: 40px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.contentPlan .plan {
+    display: block;
+    font-size: 14px;
+}
+.contentPlan .domain {
+    display: block;
+    color:#04b7e4;
+}
+.contentPlan .dollar {
+ font-size: 16px;
+    font-weight: bold;
+}
+
+.contentPlan p {
+    background-color: #dfe6ec;
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px;
+}
+.contentPlan  ul li {
+    padding: 25px;
+    font-weight: bold;
+}
+.bn{
+  color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.footer {
+    background-color: #f3f6f8;
+    padding: 100px ;
+    margin-top: 50px;
+box-shadow: 0px -8px 62px 9px rgba(219,219,219,1);
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+    padding-bottom: 0;
+}
+.list-tour h3, .list-Social h3{
+   margin-left: 10px; 
+     font-family: 'Varela Round';
+        text-transform: uppercase;
+font-size: 20px;
+}
+.list-tour ul li {
+    padding:10px;
+    color:#b4b4b4;
+  
+}
+.list-Social .fa-facebook, .list-Social .fa-instagram{
+    font-size: 40px;
+    padding: 21px;
+    color:#828282;
+}
+.list-Social .fa-instagram {
+    padding: 15px;
+}
+.copyright {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    border-top: 4px solid white;
+    color:black;
+}
